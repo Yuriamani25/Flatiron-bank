@@ -1,7 +1,7 @@
 # BANK-OF-FLATIRON
 
 ## LIVE LINK
-   --- https://yuriamani25.github.io/bank-of-flatiron/  ---
+   --- https://yuriamani25.github.io/Flatiron-bank/  ---
 
 # Author
 
