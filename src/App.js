@@ -11,6 +11,7 @@ function App() {
     category: "",
     amount: "",
   });
+  
   const [searchTerm, setSearchTerm] = useState("");
   function handleInputChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
