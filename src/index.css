@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid #d9dddc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:hover {
+  border: 2px solid #5a12bf;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search {
+  margin: 20px 0;
+  width: 100%;
+  position: relative;
+}
+
+#search-input {
+width:100% !important;
+padding: 10px;
+text-align: left;
+font-size: 16px;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #d9dddc;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+
+.container {
+  padding: 40px;
+}
+
+.title {
+  text-align: center;
+  background-color: #5a12bf;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+.form-container {
+  border: 2px solid #d9dddc;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.table,
+th,
+td {
+  border: 1px solid #d9dddc;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f6f6f8;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #d9dddc;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #5a12bf;;
+  color: white;
 }
