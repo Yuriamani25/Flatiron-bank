@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AddTransaction({ formData, handleSubmit, handleInputChange}) {
+function Transaction({ formData, handleSubmit, handleInputChange}) {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
@@ -42,4 +42,4 @@ function AddTransaction({ formData, handleSubmit, handleInputChange}) {
   );
 }
 
-export default AddTransaction
+export default Transaction
